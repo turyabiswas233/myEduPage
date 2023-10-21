@@ -1,0 +1,28 @@
+.create {
+
+    @apply grid grid-cols-1 border p-4 rounded-xl gap-2 w-fit mx-auto my-20 ring-offset-4;
+    box-shadow: 0 0 40px -15px #251c9bb0
+}
+
+
+.create section {
+    @apply gap-3 flex items-center mx-auto
+}
+
+.create>section {
+    @apply mb-4 w-full flex justify-between
+}
+
+.create label {
+    @apply text-sm;
+
+}
+
+.create>section>input {
+    @apply p-2 rounded-md;
+}
+
+
+.create>section>input:focus {
+    @apply ring-1 border-0 outline-0 ring-sky-400
+}
